@@ -6,7 +6,7 @@ import (
 	"log"
 	"sync"
 
-	pb "github.com/kaboc/piano_server/protos"
+	pb "github.com/kaboc/piano_server_go/protos"
 )
 
 var streams sync.Map

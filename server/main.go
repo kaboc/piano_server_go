@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/kaboc/piano_server/protos"
+	pb "github.com/kaboc/piano_server_go/protos"
 )
 
 const defaultPort = 50051
