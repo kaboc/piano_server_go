@@ -11,7 +11,9 @@ import (
 
 var streams sync.Map
 
-type pianoService struct{}
+type pianoService struct {
+	pb.UnimplementedPianoServer
+}
 
 func (*pianoService) Connect(stream pb.Piano_ConnectServer) error {
 	streams.Store(stream, nil)
